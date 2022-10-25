@@ -1,197 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Joan&family=Merriweather:ital@1&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="icon" type="image/x-icon" href="/assets/logo.png" />
+		<title>Dashboard</title>
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Joan&family=Merriweather:ital@1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" type="image/x-icon" href="/assets/logo.png">
-    <title>User Panel</title>
-    
-</head>
+	<body>
+		<div class="side-menu">
+			<div class="brand-name">
+				<img class="brand-logo" src="assets/Group 6.png" alt="" />
+				<h1 class="brand-title">CARRIER<span class="lookup">LOOKUP</span></h1>
+				<p class="carrier-info-text">ACCURATE CARRIER INFO</p>
+			</div>
+			<div>
+				<ul class="sidebar-lists">
+					<li>
+						<img
+							src="assets/dashboard.png"
+							alt="dashboard"
+							title="dashboard"
+						/>&nbsp; &nbsp;<span>Dashboard</span>
+					</li>
+					<li>
+						<img src="assets/Lookup.png" alt="lookup" title="lookup" />&nbsp;
+						&nbsp;<span>Lookup</span>
+					</li>
+					<li>
+						<img
+							src="assets/DailyUsage.png"
+							alt="DailyUsage"
+							title="dailyUsage"
+						/>&nbsp; &nbsp;<span>Files</span>
+					</li>
+					<li>
+						<div class="log">
+							<div class="logs">
+								<div>
+									<img src="assets/logSvg.png" alt="logs" title="logs" />&nbsp;
+									&nbsp;<span>Logs</span>
+								</div>
+								<div class="mouseover-in-icon">
+									<img
+										src="assets/dropdown.png"
+										alt="dropdown"
+										title="dropdown"
+									/>
+								</div>
+							</div>
+							<div class="new-log">
+								<ul>
+									<li>
+										<img src="assets/Single.png" alt="" />&nbsp;<span
+											class="single-lookup-size"
+											>Single/Bulk Lookup</span
+										>
+									</li>
+									<li>
+										<img src="assets/DailyUsage.png" alt="" />&nbsp;<span
+											class="single-lookup-size"
+											>Daily Usages</span
+										>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="assets/Buy.png" alt="" />&nbsp; &nbsp;<span
+							>Buy Credits</span
+						>
+					</li>
+					<li>
+						<img src="assets/Integrations.png" alt="" />&nbsp; &nbsp;<span
+							>Integrations</span
+						>
+					</li>
+					<li>
+						<img src="assets/Profile.png" alt="" />&nbsp; &nbsp;<span
+							>My Profile</span
+						>
+					</li>
+				</ul>
+			</div>
+		</div>
 
-<body>
-    <div class="side-menu">
-        <div class="brand-name">
-            <img class="brand-logo" src="assets/icons/Group 6.png" alt="">
-            <h1 class="brand-title">CARRIER<span class="lookup">LOOKUP</span></h1>
-            <p class="carrier-info-text">ACCURATE CARRIER INFO</p>
-        </div>
-        <ul class="sidebar-lists">
-            <li><img src="assets/dashboard.png" alt="dashboard" title="dashboard">&nbsp; &nbsp;<span>Dashboard</span> </li>
-            <li><img src="assets/Lookup.png" alt="lookup" title="lookup">&nbsp; &nbsp;<span>Lookup</span></li>
-            <li><img src="assets/DailyUsage.png" alt="DailyUsage" title="dailyUsage">&nbsp; &nbsp;<span>Files</span> </li>
-            <li>
-                <div class="log">
-                    <div class="logs">
-                        <div><img src="assets/logSvg.png" alt="logs" title="logs">&nbsp; &nbsp;<span>Logs</span></div>
-                        <div class="mouseover-in-icon"><img src="assets/dropdown.png" alt="dropdown" title="dropdown"></div>
-                    </div>
-                    <div class="new-log">
-                        <ul>
-                            <li><img src="assets/Single.png" alt="">&nbsp;<span
-                                    class="single-lookup-size">Single/Bulk Lookup</span>
-                            </li>
-                            <li><img src="assets/DailyUsage.png" alt="">&nbsp;<span
-                                    class="single-lookup-size">Daily Usages</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-            <li><img src="assets/Buy.png" alt="">&nbsp; &nbsp;<span>Buy Credits</span> </li>
-            <li><img src="assets/Integrations.png" alt="">&nbsp; &nbsp;<span>Integrations</span> </li>
-            <li><img src="assets/Profile.png" alt="">&nbsp; &nbsp;<span>My Profile</span></li>
-        </ul>
-    </div>
+		<div class="container">
+			<!-- header section -->
+			<div class="header">
+				<div class="nav">
+					<p class="p-color">Balance :</p>
+					<p class="p-color-amount">$125</p>
+					<div class="user-dropdown">
+						<img src="assets/ProfilePhoto.png" alt="" />
+						<p class="user-name">Alexa Jui</p>
+						<ul>
+							<li>
+								<a href="#">
+									<p><img src="assets/dropdown.png" alt="" /></p>
+								</a>
+								<div class="dropdown__menu">
+									<ul>
+										<li><a href="#">My Profile</a></li>
+										<li><a href="#">Add Fund</a></li>
+										<li><a href="#">API Documentation</a></li>
+										<li><a href="#">Log Out</a></li>
+										<button class="logout-btn">
+											<img src="assets/logOut.png" alt="" /> Log Out
+										</button>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
 
-    <div class="container">
+            <!-- dashboard content section -->
+			<div class="main-content">
+				<div class="content">
 
-        <div class="header">
-            <div class="nav">
-                <p class="p-color">Balance : </p>
-                <p class="p-color-amount">$125</p>
-                <div class="user-dropdown">
-                    <img src="assets/ProfilePhoto.png" alt="">
-                    <p class="user-name">Alexa Jui</p>
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <p><img src="assets/dropdown.png" alt=""></p>
-                            </a>
-                            <div class="dropdown__menu">
-                                <ul>
-                                    <li><a href="#">My Profile</a></li>
-                                    <li><a href="#">Add Fund</a></li>
-                                    <li><a href="#">API Documentation</a></li>
-                                    <li><a href="#">Log Out</a></li>
-                                    <button class="logout-btn"><img src="assets/logOut.png" alt=""> Log
-                                        Out</button>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+                    <!-- profile section -->
+					<div class="profile-card">
+						<img src="assets/photo1.png" alt="" />
+						<h2>Alexa Jui</h2>
+						<p>alexajui@gmail.com</p>
+						<p>+1 354 785 4125</p>
+						<p>3213 D Street, Columbus, USA</p>
+					</div>
 
-        <div class="main-content">
-            <div class="content">
-                <div class="profile--card">
-                    <img src="assets/photo1.png" alt="">
-                    <h2>Alexa Jui</h2>
-                    <p>alexajui@gmail.com</p>
-                    <p>+1 354 785 4125</p>
-                    <p>3213 D Street, Columbus, USA</p>
-                </div>
-                <div class="main-cards-div">
-                    <h2>Your Credit Cards</h2>
-                    <div class="credit-cards-main">
-                        <div class="credit--card">
-                            <div class="same-card">
-                                <h3 class="same-card-title">Credit Card 1</h3>
-                                <p class="same-card-num">xxxxxxxxxxxx4684</p>
-                            </div>
-                            <img src="assets/Trash.png" alt="">
-                        </div>
-                        <div class="different-credit--card">
-                            <div class="different-card">
-                                <h3 class="different-card-title">Credit Card 2 (Default)</h3>
-                                <p class="different-card-num">xxxxxxxxxxxx4242</p>
-                            </div>
-                            <img src="assets/Trashcolored.png" alt="">
-                        </div>
-                        <div class="credit--card">
-                            <div class="same-card">
-                                <h3 class="same-card-title">Credit Card 3</h3>
-                                <p class="same-card-num">xxxxxxxxxxxx1254</p>
-                            </div>
-                            <img src="assets/Trash.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    <!-- card section  -->
+					<div class="main-cards-div">
+						<h2>Your Credit Cards</h2>
+						<div class="credit-cards-main">
+							<div class="credit--card">
+								<div class="same-card">
+									<h3 class="same-card-title">Credit Card 1</h3>
+									<p class="same-card-num">xxxxxxxxxxxx4684</p>
+								</div>
+								<img src="assets/Trash.png" alt="" />
+							</div>
+							<div class="different-credit--card">
+								<div class="different-card">
+									<h3 class="different-card-title">Credit Card 2 (Default)</h3>
+									<p class="different-card-num">xxxxxxxxxxxx4242</p>
+								</div>
+								<img src="assets/Trashcolored.png" alt="" />
+							</div>
+							<div class="credit--card">
+								<div class="same-card">
+									<h3 class="same-card-title">Credit Card 3</h3>
+									<p class="same-card-num">xxxxxxxxxxxx1254</p>
+								</div>
+								<img src="assets/Trash.png" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-        <div class="second-main-content">
-            <div class="second-content">
-                <div class="content-nav">
-                    <a href="#">Update Profile</a>
-                    <a href="#">Change Password</a>
-                    <a href="#">Email Notifications</a>
-                    <a href="#">Auto Recharge Settings</a>
-                </div>
+            <!-- dashboard profile section -->
+			<div class="second-main-content">
+				<div class="second-content">
+					<div class="content-nav">
+						<a href="#">Update Profile</a>
+						<a href="#">Change Password</a>
+						<a href="#">Email Notifications</a>
+						<a href="#">Auto Recharge Settings</a>
+					</div>
 
-                <hr class="new4">
+					<hr class="new4" />
 
-                <div class="sliders-switches">
-                    <div class="swtiches">
-                        <div>
-                            <label class="switch">
-                                <input type="checkbox" checked>
-                                <span class="slider round"></span>
-                            </label>
-                        </div>
-                        <div>
-                            <label class="switch">
-                                <input type="checkbox">
-                                <span class="slider round"></span>
-                            </label>
-                        </div>
-                        <div>
-                            <label class="switch">
-                                <input type="checkbox" checked>
-                                <span class="slider round"></span>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="slider-texts">
-                        <p>Notify me when list verification completes</p>
-                        <p>Notify me when list export completes</p>
-                        <p>Notify me when list verification result is about to expire</p>
-                    </div>
-                </div>
+					<div class="sliders-switches">
+						<div class="switches">
+							<div>
+								<label class="switch">
+									<input type="checkbox" checked />
+									<span class="slider round"></span>
+								</label>
+							</div>
+							<div>
+								<label class="switch">
+									<input type="checkbox" />
+									<span class="slider round"></span>
+								</label>
+							</div>
+							<div>
+								<label class="switch">
+									<input type="checkbox" checked />
+									<span class="slider round"></span>
+								</label>
+							</div>
+						</div>
+						<div class="slider-texts">
+							<p>Notify me when list verification completes</p>
+							<p>Notify me when list export completes</p>
+							<p>Notify me when list verification result is about to expire</p>
+						</div>
+					</div>
 
-                <!-- horizontal line 5 -->
-                <hr class="new5">
+					<!-- horizontal line 5 -->
+					<hr class="hrLine-five" />
 
-                <div class="form-section">
-                    <div class="single-swtich-slide">
-                        <div class="swtiches">
-                            <div>
-                                <label class="switch">
-                                    <input type="checkbox" checked>
-                                    <span class="slider round"></span>
-                                </label>
-                            </div>
-                        </div>
-                        <div class="slider-texts text-paragraph">
-                            <p>Receive Low Credits Email</p>
-                        </div>
-                    </div>
-                    <div class="forms">
-                        <form>
-                            <div class="form-div">
-                                <label for="fname">Send Email to<span>*</span></label> <br>
-                                <input type="text" placeholder="alexajui@gmail.com" id="fname" name="fname">
-                            </div>
-                            <div class="form-div">
-                                <label for="fname">When credits are less than<span>*</span></label> <br>
-                                <input type="text" value="50" id="fname" name="fname">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <hr class="new5">
-                <button class="save-btn">Save Changes</button>
-            </div>
-        </div>
-    </div>
+					<div class="form-section">
+						<div class="single-switch-slide">
+							<div class="switches">
+								<div>
+									<label class="switch">
+										<input type="checkbox" checked />
+										<span class="slider round"></span>
+									</label>
+								</div>
+							</div>
+							<div class="slider-texts text-paragraph">
+								<p>Receive Low Credits Email</p>
+							</div>
+						</div>
+						<div class="forms">
+							<form>
+								<div class="form-div">
+									<label for="fName">Send Email to<span class="required-star">*</span></label> <br />
+									<input
+                                    class="fName"
+										type="text"
+										placeholder="alexajui@gmail.com"
+										id="fName"
+										name="fName"
+									/>
+								</div>
+								<div class="form-div">
+									<label for="fNumber"
+										>When credits are less than<span class="required-star">*</span></label
+									>
+									<br />
+									<input class="fNumber" type="text" value="50" id="fNumber" name="fNumber" />
+								</div>
+							</form>
+						</div>
+					</div>
+					<hr class="hrLine-five" />
+					<button class="save-btn">Save Changes</button>
+				</div>
+			</div>
+		</div>
 
-    <!-- script js -->
-    <script src="/script.js">       
-    </script>
-</body>
+		<!-- script js -->
+		<script src="/script.js"></script>
+	</body>
 </html>
