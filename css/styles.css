@@ -329,7 +329,7 @@ p {
     margin-left: 75px;
 }
 
-.credit--card {
+.credit-card {
     border: 1px solid #F2F2F4;
     border-radius: 10px;
     background: #FFFFFF;
@@ -342,7 +342,7 @@ p {
     margin: 0 10px;
 }
 
-.different-credit--card {
+.different-credit-card {
     background: #FFFFFF;
     border: 1px solid #FF7901;
     border-radius: 10px;
@@ -355,12 +355,12 @@ p {
     margin: 0 10px;
 }
 
-.credit--card img {
+.credit-card img {
     margin-left: 80px;
     margin-bottom: 100px;
 }
 
-.different-credit--card img {
+.different-credit-card img {
     margin-left: 2px;
     margin-bottom: 100px;
 }
@@ -397,7 +397,7 @@ p {
     align-items: center;
 }
 
-.same-card-title {
+.card-title {
     color: #7D7D7E;
     font-weight: 300;
     font-size: 16px;
@@ -410,20 +410,20 @@ p {
     width: 200px;
 }
 
-.same-card-num {
+.card-number {
     color: #BDBDBD;
     font-weight: 300;
     font-size: 15px;
 }
 
-.different-card-num {
+.different-card-number {
     color: #26262E;
     font-weight: 300;
     font-size: 15px;
     margin-right: 79px;
 }
 
-.same-card {
+.card {
     margin-left: 18px;
 }
 
@@ -916,11 +916,11 @@ form {
         align-items: center;
     }
 
-    .credit--card {
+    .credit-card {
         margin-top: 10px;
     }
 
-    .different-credit--card {
+    .different-credit-card {
         margin-top: 10px;
     }
 
